@@ -6,5 +6,5 @@ i = etage.to_i
 n = 1
 while n <= i
     puts "#" * n
-    n = n + 1
+    n += 1
 end
